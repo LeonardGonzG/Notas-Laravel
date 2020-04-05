@@ -21,6 +21,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/chat', 'ContactsController@index')->name('chat');
+
+Route::get('/contacts', 'ContactsController@get');
+
+Route::get('/conversation/{id}', 'ContactsController@getMessagesFor');
+
+Route::post('/conversation/send', 'ContactsController@send');
+
+
 Route::get('/notas/{id}/edit', 'NotaController@edit' )->name('notas.editar');
 
 Route::put('/editar/{id}', 'NotaController@update' )->name('notas.update');

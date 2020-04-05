@@ -1,0 +1,3 @@
+2020-04-05T01:53:57.760273Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2020-04-05T01:53:57.762783Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2020-04-05T01:53:57.762861Z 0 [Note] H:\laragon\bin\mysql\mysql-5.7.24-winx64\bin\mysqld (mysqld 5.7.24) starting as process 15572 ...

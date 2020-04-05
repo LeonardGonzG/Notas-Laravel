@@ -53,6 +53,10 @@ return [
         'null' => [
             'driver' => 'null',
         ],
+        'options' => [
+            'cluster' => 'us2',
+            'useTLS' => true
+        ],
 
     ],
 
